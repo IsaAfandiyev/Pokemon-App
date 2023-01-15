@@ -1,0 +1,54 @@
+.itemsCard{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    width:35%;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    justify-content: center;
+}
+.rightSide{
+width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+}
+.mainPageContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    width:50%;
+}
+.rightSideImg{
+    margin: 2rem;
+
+}
+.rightSideName{
+text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.abilities{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+.group{
+    background-color: aquamarine;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 16px;
+}
+.baseStat{
+    margin-top: 2rem;
+}
+body{
+    background-color: orange;
+}
